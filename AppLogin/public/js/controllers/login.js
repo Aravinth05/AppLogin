@@ -10,7 +10,7 @@ angular.module('LogController', [])
     $scope.login = function (user) {
         $http.get('/api/todos', $scope.userL).success(function data)
         {
-
+            //jskjdksjdkj
             $http.post('/api/todos', $scope.user)
                         .success(function (data) {
                 $scope.formData = {}; // clear the form so our user is ready to enter another
