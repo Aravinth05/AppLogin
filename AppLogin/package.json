@@ -1,0 +1,21 @@
+{
+  "name": "app-login",
+  "version": "0.0.0",
+  "description": "AppLogin",
+  "main": "server.js",
+  "author": {
+    "name": "asanmuganathan",
+    "email": ""
+  },
+  "dependencies": {
+    "body-parser": "~1.14.1",
+    "cookie-parser": "*",
+    "express": "~4.13.2",
+    "method-override": "~2.3.5",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.6.1",
+    "passport": "*",
+    "path": "^0.12.7",
+    "ejs" : "*"
+  }
+}
